@@ -1,0 +1,416 @@
+ToscaRepo104 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5236.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5236)
+   )
+  )
+
+DMZToscaRepo =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  ) 
+
+
+DMZToscaDB1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+DMZToscaDB2 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+TelstraEdgeRepo =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0200n01-oravip)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0200n02-oravip)(PORT = 1521))
+    (LOAD_BALANCE = yes)
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DF0012P)
+   )
+  )
+
+TOSCATest=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = inostbb097.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = inostbb097.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBBDB097)
+   )
+  )
+DMZ5263=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5263.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5263.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5263)
+   )
+  )
+DMZToscaRepo=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+
+DMZ5251=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5251.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5251.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5251)
+   )
+  )
+
+DMZToscaDB4=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+DMZ5252=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5252.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5252.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5252)
+   )
+  )
+
+DMZ5237=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5237.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5237.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5237)
+   )
+  )
+DMZ5250=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5250.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5250.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5250)
+   )
+  )
+
+DMZ5218=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5218.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5218.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5218)
+   )
+  )
+
+DMZToscaDB2=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+DMZ5249=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5249.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5249.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5249)
+   )
+  )
+
+DMZ5217=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5217.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5217.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5217)
+   )
+  )
+
+DMZ5219=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5219.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5219.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5219)
+   )
+  )
+
+DMZ5370=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5370.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5370.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5370)
+   )
+  )
+
+DMZ5233=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5233.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5233.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5233)
+   )
+  )
+
+DMZ5376=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5376.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5376)
+   )
+  )
+
+DMZ5373=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5373.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5373.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5373)
+   )
+  )
+
+DMZ5216=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5216.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5216.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5216)
+   )
+  )
+
+DMZ5234=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5234.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5234.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5234)
+   )
+  )
+
+DMZ5247=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5247.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5247.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5247)
+   )
+  )
+
+DMZ5377=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5377.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5377.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5377)
+   )
+  )
+
+DMZ5384=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5384.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5377.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5384)
+   )
+  )
+
+DMZ5236=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5236.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5236.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5236)
+   )
+  )
+
+DMZ5373=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5373.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5373.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5373)
+   )
+  )
+
+DMZ5372=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5372.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5372.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5372)
+   )
+  )
+
+
+DMZ5248=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5248.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5248.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5248)
+   )
+  )
+
+DMZ5252=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5252.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5252.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5252)
+   )
+  )
+
+DMZ5232=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5232.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5232.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5232)
+   )
+  )
+
+DMZ5233=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5233.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5233.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5233)
+   )
+  )
+
+DMZ5234=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5234.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5234.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5234)
+   )
+  )
+
+DMZ5275=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5275.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5275.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5275)
+   )
+  )
+
+DMZ5238=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5238.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5238.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5238)
+   )
+  )
+
+
+DMZ5413=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5413.corp.amdocs.com)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin55413.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5413)
+   )
+  )
+  
+AFFDB_5275 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5275)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5275)
+   )
+  )
+  
+TelstraOnshoreRepo =
+   (DESCRIPTION =
+        (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n01-oravip)(PORT = 1521))
+		(ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n02-oravip)(PORT = 1521))
+        (LOAD_BALANCE = yes)
+        (CONNECT_DATA =
+            (SERVER = DEDICATED)
+            (SERVICE_NAME = DF0012D)
+        )
+    )
+
+TBDZ5275 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = indlin5275.corp.amdocs.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TBDZ5275)
+   )
+  )
+
+Edge=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n01-oravip.in.telstra.com.au)(PORT = 1521))
+    (LOAD_BALANCE = yes)
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DF0012V)
+   )
+  )
