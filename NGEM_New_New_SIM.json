@@ -1,0 +1,191 @@
+{
+    "version": 1,
+    "systemId": "CloudSense",
+    "externalId": "NGEM16032101",
+    "orderSpecificationCode": "CloudSense_CPO",
+    "orderCharacteristic": [
+        {
+            "name": "orderCreationDate",
+            "value": "2020-03-24T04:45:50"
+        },
+        {
+            "name": "ModuleChange",
+            "value": "FALSE"
+        },
+        {
+            "name": "orderComplexity",
+            "value": "Simplex"
+        },
+        {
+            "name": "customerBusinessUnit",
+            "value": "Telstra"
+        },
+        {
+            "name": "SalesUserId",
+            "value": "123456"
+        },
+        {
+            "name": "SalesUserFirstName",
+            "value": "John"
+        },
+        {
+            "name": "SalesUserLastName",
+            "value": "Mark"
+        },
+        {
+            "name": "SalesUserContactNumber",
+            "value": "5689712342"
+        },
+        {
+            "name": "SalesUserEmailId",
+            "value": "ABC@123.com"
+        },
+        {
+            "name": "Project_Manager_Required",
+            "value": "false"
+        },
+        {
+            "name": "Project_ID",
+            "value": "PROJ_Provide001"
+        },
+        {
+            "name": "CustomerAddressId",
+            "value": "123456789"
+        }
+    ],
+    "relatedParty": [
+        {
+            "id": "Customer_NGEM16032101",
+            "name": "Finances Ltd",
+            "type": "Enterprise",
+            "role": "customer",
+            "href": "http://serverlocation:port/partyManagement/customer/345221"
+        }
+    ],
+    "orderItem": [
+        {
+            "id": "OLI1NGEM16032101_02",
+            "version": 1,
+            "action": "Create",
+            "orderItemCharacteristic": [
+                {
+                    "name": "CPEDeliveryDate",
+                    "value": "2019-03-14T04:45-11.00"
+                },
+                {
+                    "name": "deliveryAddressID",
+                    "value": "AdBoR1234_P1"
+                },
+                {
+                    "name": "notBeforeCRD",
+                    "value": "2019-06-28T11:55+05:30"
+                },
+                {
+                    "name": "deliveryContactFirstName",
+                    "value": "Ricky"
+                },
+                {
+                    "name": "deliveryContactLastName",
+                    "value": "Ponting"
+                },
+                {
+                    "name": "deliveryContactPhoneNumber",
+                    "value": 610312345678
+                },
+                {
+                    "name": "deliveryContactEmailAddress",
+                    "value": "test@abc.com"
+                },
+                {
+                    "name": "transitionId",
+                    "value": "NGEM16032101"
+                }
+            ],
+            "product": {
+                "id": "NGEM_Instance_ID_02_NGEM16032101",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_001196"},
+                "productCharacteristic": [
+                    {
+                        "name": "ShippingRequired",
+                        "value": "TRUE"
+                    },
+                    {
+                        "name": "INTROAM",
+                        "value": "false"
+                    },
+                    {
+                        "name": "PlanType",
+                        "value": "Mobile Broadband"
+                    },
+                    {
+                        "name": "SKU",
+                        "value": "TestSIMSKU"
+                    },
+                    {
+                        "name": "CustomerFacingServiceId",
+                        "value": 61416032101
+                    },
+                    {
+                        "name": "SIMSerialNumber",
+                        "value": ""
+                    },
+                    {
+                        "name": "IMSI",
+                        "value": ""
+                    },
+                    {
+                        "name": "SIMType",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "Quantity",
+                        "value": "20"
+                    }
+                ],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Data_ID_02_NGEM16032101",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_001158"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "dataBarring",
+                                    "value": "barNone"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "CallingMessaging_ID_02_NGEM16032101",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_001156"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "callRestriction",
+                                    "value": "barIdd"
+                                },
+                                {
+                                    "name": "msgRestriction",
+                                    "value": "barMoSMS"
+                                },
+                                {
+                                    "name": "mmsEnabled",
+                                    "value": "false"
+                                },
+                                {
+                                    "name": "rcsEnabled",
+                                    "value": "false"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
